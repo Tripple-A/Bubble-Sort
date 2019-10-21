@@ -8,7 +8,7 @@ def bubble_sort(arr)
     end
     j -= 1
   end
-  print arr
+  arr
 end
 
 def bubble_sort_by(arr)
@@ -26,7 +26,7 @@ def bubble_sort_by(arr)
       end
     end
   end
-  print arr
+  arr
 end
 
 bubble_sort([4, 3, 78, 2, 0, 2])
