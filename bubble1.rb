@@ -10,3 +10,20 @@ def bubble_sort(arr)
   end
   print arr
 end
+
+def bubble_sort_by(arr)
+  n = arr.length - 1
+  n.times do
+    arr.each_with_index do |item, index|
+      next_item = arr[index + 1]
+      next if index == n
+
+      col = yield(item, next_item)
+      if col.positive?
+        arr[index] = next_item
+        arr[index + 1] = item
+      end
+    end
+  end
+  print arr
+end
