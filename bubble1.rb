@@ -27,3 +27,9 @@ def bubble_sort_by(arr)
   end
   print arr
 end
+
+bubble_sort([4, 3, 78, 2, 0, 2])
+
+bubble_sort_by(%w[hi hello hey]) do |left, right|
+  left.length - right.length
+end
