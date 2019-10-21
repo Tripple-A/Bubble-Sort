@@ -1,3 +1,4 @@
+# frozen_string_literal: true
 def bubble_sort(arr)
   j = arr.length - 1
   while j.positive?
