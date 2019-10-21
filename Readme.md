@@ -2,7 +2,7 @@
 ### Project: BUBBLE SORT
 
 #### Contributors
-* [Aheebwa Ramadhan](https://github.com/abruzy)
+* [Abubakar Diallo](https://github.com/abruzy)
 * [Ajibade Abiodun](https://github.com/Tripple-A)
 
 ### Project Goal
