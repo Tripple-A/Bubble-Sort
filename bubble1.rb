@@ -18,6 +18,7 @@ def bubble_sort_by(arr)
       next_item = arr[index + 1]
       next if index == n
 
+      block_given?
       col = yield(item, next_item)
       if col.positive?
         arr[index] = next_item
